@@ -17,7 +17,7 @@ sudo docker build -t ufcode-backend .
 * O comando acima irá criar uma imagem chamada **ufcode-backend**, mas você pode escolher outro nome caso deseje. O ponto (.) no final significa o diretório o qual o build será executado.
 * O build faz uso do arquivo **Dockerfile**, por isso só irá funcionar dentro da raiz do projeto.
 
-#3 - Executando a imagem do Backend:
+# 3 - Executando a imagem do Backend:
 
 * Ao executar uma imagem, você na verdade estará criando um *container*. Um *container* é uma imagem em execução (uma analogia seria a Classes e seus Objetos).
 * Execute o comando:
