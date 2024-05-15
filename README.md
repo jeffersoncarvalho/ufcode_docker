@@ -77,3 +77,16 @@ sudo docker ps -a
 sudo docker stop <nome_do_container>
 ```
 
+* Apagar um container (não pode estar em execução):
+
+```
+sudo docker rm <nome_do_container>
+```
+
+* Apagar uma imagem (sem containers em execução):
+
+```
+sudo docker rmi <id_da_imagem>
+```
+
+Obs.: o **id** de uma imagem você consegue ao listar as imagens disponíveis.
