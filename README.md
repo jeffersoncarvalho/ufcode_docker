@@ -46,5 +46,7 @@ sudo docker build -t ufcode-frontend .
 sudo docker run --name frontend -it -p 4000:4000 ufcode-frontend
 ```
 
-* O comando acima irá executar a imagem **ufcode-frontend** com o nome de *container* apenas como **frontend**. O argumento **-p 4000:4000** irá mapear uma porta do lado esquerdo para uma porta do lado direito. Neste ponto, o site já está pronta para ser acessado via porta 4000.
+* O comando acima irá executar a imagem **ufcode-frontend** com o nome de *container* apenas como **frontend**. 
+* O argumento **-p 4000:4000** irá mapear uma porta do lado esquerdo para uma porta do lado direito. 
+* Neste ponto, o site já está pronta para ser acessado via porta 4000.
 
