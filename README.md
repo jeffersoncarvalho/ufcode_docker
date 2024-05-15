@@ -90,3 +90,16 @@ sudo docker rmi <id_da_imagem>
 ```
 
 Obs.: o **id** de uma imagem você consegue ao listar as imagens disponíveis.
+
+# 7 - Instalando o WSL (e o Ubuntu) no Windows
+
+* Siga as instruções [oficiais](https://learn.microsoft.com/en-us/windows/wsl/install).
+* Exemplos (instalar o ubuntu e depois executá-lo)
+
+```
+wsl --install -d Ubuntu-22.04
+```
+
+```
+wsl --distribution Ubuntu-22.04
+```
